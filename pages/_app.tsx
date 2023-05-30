@@ -22,7 +22,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>{pageTitle}</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       </Head>
       <Component {...pageProps} />
     </>
