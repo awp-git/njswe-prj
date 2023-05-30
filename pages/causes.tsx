@@ -132,17 +132,20 @@ export default function Causes() {
                   {cause.description}
                 </p>
                 <div className="mt-4">
-                  {cause.links.map((link, index) => (
-                    <a
-                      key={index}
-                      href={link.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm text-indigo-600 hover:text-indigo-500"
-                    >
-                      {link.label}
-                    </a>
-                  ))}
+                  <ul className="list-disc pl-4 text-gray-500">
+                    {cause.links.map((link, index) => (
+                      <li key={index}>
+                        <a
+                          href={link.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-sm text-indigo-500 hover:text-indigo-400"
+                        >
+                          {link.label}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </div>
             ))}

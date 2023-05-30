@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
+import * as React from "react";
 
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
@@ -152,15 +153,19 @@ export default function Impact() {
                     </p>
                     <div className="mt-4 space-x-4">
                       {impact.links.map((link, linkIndex) => (
-                        <a
-                          key={linkIndex}
-                          href={link.href}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-sky-300 hover:text-sky-100"
-                        >
-                          {link.label}
-                        </a>
+                        <React.Fragment key={linkIndex}>
+                          {linkIndex > 0 && (
+                            <span className="text-gray-300">•</span>
+                          )}
+                          <a
+                            href={link.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-indigo-500 hover:text-indigo-400"
+                          >
+                            {link.label}
+                          </a>
+                        </React.Fragment>
                       ))}
                     </div>
                   </>
