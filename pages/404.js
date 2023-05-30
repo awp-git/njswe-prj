@@ -1,7 +1,5 @@
 import Link from "next/link";
 
-import Footer from "./components/footer";
-
 export default function FourOhFour() {
   const email = "awpdevmain@gmail.com";
 
