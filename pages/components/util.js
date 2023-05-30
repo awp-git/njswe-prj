@@ -1,10 +1,10 @@
 // ctc
-export function copyToClipboard(text) {
+export default function copyToClipboard(text) {
   navigator.clipboard.writeText(text);
 }
 
 // redirect
-export function redirectTo(url, newTab) {
+export default function redirectTo(url, newTab) {
   if (newTab) {
     window.open(url, "_blank");
   } else {
