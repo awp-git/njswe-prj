@@ -236,7 +236,7 @@ export default function Donate() {
                   rel="noopener noreferrer"
                   className="inline-block text-sky-300 hover:text-sky-100"
                 >
-                  Donate now
+                  Donate now <span aria-hidden="true">→</span>
                 </a>
               </div>
             ))}

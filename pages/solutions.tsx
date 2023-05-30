@@ -71,7 +71,7 @@ export default function Solutions() {
                 passHref
                 className="text-sky-300 hover:text-sky-100"
               >
-                Donate Now
+                Donate Now <span aria-hidden="true">→</span>
               </Link>
             </div>
           </div>

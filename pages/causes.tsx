@@ -97,64 +97,56 @@ export default function Causes() {
       ],
     },
   ];
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-zinc-600 to-stone-900 text-white p-5 md:p-10 font-sans">
       <Navbar />
 
-      <div className="relative isolate pt-20 md:pt-40 pb-40 md:pb-96 mb-14 lg:px-8 lg:pb-96">
-        <div className="mx-auto max-w-2xl lg:text-center pb-12">
-          <p className="mt-2 text-xl md:text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            <Link href="/causes" className="text-white hover:text-gray-300">
-              Learn
-            </Link>
-            {", "}
-            <Link href="/impact" className="text-white hover:text-gray-300">
-              Understand
-            </Link>
-            {", "}
-            <Link href="/solutions" className="text-white hover:text-gray-300">
-              Act
-            </Link>
-          </p>
+      <div className="pt-20 md:pt-40 pb-40 md:pb-96">
+        <div className="max-w-5xl mx-auto px-4">
+          <h1 className="text-3xl md:text-5xl font-bold mb-8">Causes</h1>
 
-          <p className="mt-6 text-base md:text-lg leading-7 md:leading-8 text-gray-300">
-            Exploring the issue of food insecurity is crucial as it helps us
-            understand why so many people face challenges in accessing enough
-            healthy and nourishing food. By recognizing the underlying causes,
-            such as poverty, unemployment, climate change, and limited
-            resources, we can develop effective solutions.
-          </p>
-        </div>
+          <div className="flex space-x-4 mb-8">
+            <Link
+              href="/impact"
+              passHref
+              className="text-sky-300 hover:text-sky-100"
+            >
+              Impact
+            </Link>
+            <Link
+              href="/solutions"
+              passHref
+              className="text-sky-300 hover:text-sky-100"
+            >
+              Solutions
+            </Link>
+          </div>
 
-        <div className="flex flex-col md:flex-row justify-center md:justify-around">
-          {causes.map((cause, index) => (
-            <div className="p-5 md:p-10 mb-8 md:mb-0" key={index}>
-              <div className="max-w-screen-lg h-80 md:h-96 rounded-3xl shadow-lg hover:shadow-slate-500 ease-in-out duration-500">
-                <div className="px-6 py-4">
-                  <div className="font-bold text-lg md:text-xl mb-2">
-                    {cause.title}
-                  </div>
-                  <p className="text-white text-sm md:text-base">
-                    {cause.description}
-                  </p>
-                  <div className="mt-4">
-                    {cause.links.map((link, index) => (
-                      <a
-                        key={index}
-                        className="text-indigo-600 hover:text-indigo-500 text-sm md:text-base"
-                        href={link.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {link.label}
-                      </a>
-                    ))}
-                  </div>
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+            {causes.map((cause, index) => (
+              <div key={index} className="bg-gray-800 rounded-xl p-6">
+                <h2 className="text-lg md:text-xl font-semibold text-white">
+                  {cause.title}
+                </h2>
+                <p className="mt-2 text-sm md:text-base text-gray-300">
+                  {cause.description}
+                </p>
+                <div className="mt-4">
+                  {cause.links.map((link, index) => (
+                    <a
+                      key={index}
+                      href={link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-indigo-600 hover:text-indigo-500"
+                    >
+                      {link.label}
+                    </a>
+                  ))}
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
 
