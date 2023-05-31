@@ -50,7 +50,7 @@ export default function Footer() {
                 We-project made by a computer science student at Herbert Hoover
                 High school reachable @{" "}
                 <a
-                  className="font-semibold text-indigo-500 hover:text-indigo-400"
+                  className="font-semibold text-indigo-500 hover:text-indigo-600"
                   href={`mailto:${email}`}
                   target="_blank"
                   rel="noopener noreferrer"
