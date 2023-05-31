@@ -18,7 +18,7 @@ const learnItems = [
   {
     title: "Solutions to Food Insecurity",
     description:
-      "Discover possible solutions to combat food insecurity, such as increasing access to education, improving agricultural practices, and supporting food banks.",
+      "Discover possible solutions to combat food insecurity, such as increasing access to education, improving agricultural practices, and supporting policies.",
     link: "/solutions",
   },
 ];
