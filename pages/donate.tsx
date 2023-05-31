@@ -71,22 +71,10 @@ const donationOrganizations = [
     url: "https://www.heifer.org/",
   },
   {
-    name: "The Hunger Relief Project",
-    description:
-      "The Hunger Relief Project is a grassroots initiative focused on providing immediate food assistance to vulnerable communities. They collaborate with local organizations and volunteers to distribute meals and support community development.",
-    url: "https://hungerreliefproject.org/",
-  },
-  {
     name: "Meals on Wheels",
     description:
       "Meals on Wheels is a program that delivers nutritious meals to seniors in need, particularly those who are homebound or have limited mobility. They also provide social interaction and check-ins to combat social isolation.",
     url: "https://www.mealsonwheelsamerica.org/",
-  },
-  {
-    name: "The Global Food Initiative",
-    description:
-      "The Global Food Initiative is an organization that works towards eradicating hunger and improving food security worldwide. They support projects that focus on sustainable agriculture, education, and empowering local communities.",
-    url: "https://www.globalfoodinitiative.com/",
   },
   {
     name: "Rise Against Hunger",
@@ -108,78 +96,16 @@ const donationOrganizations = [
   },
 
   {
-    name: "The Global FoodBanking Network - Latin America",
-    description:
-      "The Global FoodBanking Network's Latin America chapter works to alleviate hunger and reduce food waste by supporting food banks in Latin American countries. They collaborate with local communities to address food insecurity.",
-    url: "https://www.foodbanking.org/regions/latin-america/",
-  },
-  {
     name: "CARE",
     description:
       "CARE is a leading humanitarian organization working to fight global poverty. They provide emergency relief and long-term solutions to address the underlying causes of poverty, including food insecurity.",
     url: "https://www.care.org/",
   },
   {
-    name: "Food Security Network",
+    name: "Food Forward",
     description:
-      "The Food Security Network is a network of organizations and individuals dedicated to addressing food security issues in communities. They work to promote sustainable food systems and equitable access to nutritious food.",
-    url: "https://www.foodsecuritynetwork.ca/",
-  },
-
-  {
-    name: "Africare",
-    description:
-      "Africare is a leading non-profit organization focused on improving the lives of people in Africa. They address food insecurity through agricultural and livelihood programs, health interventions, and community development initiatives.",
-    url: "https://www.africare.org/",
-  },
-  {
-    name: "The Hunger Project UK",
-    description:
-      "The Hunger Project UK is a non-profit organization dedicated to ending hunger and poverty. They work in partnership with communities, empowering them to transform their lives and achieve sustainable progress.",
-    url: "https://www.thp.org.uk/",
-  },
-  {
-    name: "Action Against Hunger Spain",
-    description:
-      "Action Against Hunger Spain is a humanitarian organization that fights against hunger and malnutrition. They provide life-saving assistance and support to vulnerable communities in Spain and around the world.",
-    url: "https://www.accioncontraelhambre.org/",
-  },
-  {
-    name: "Concern Worldwide",
-    description:
-      "Concern Worldwide is an international humanitarian organization working to tackle poverty and hunger. They provide emergency response, support sustainable livelihoods, and advocate for positive change in communities.",
-    url: "https://www.concern.net/",
-  },
-  {
-    name: "Food For The Poor",
-    description:
-      "Food For The Poor is an organization focused on alleviating hunger and poverty in the Caribbean and Latin America. They provide food, housing, healthcare, and other essential services to those in need.",
-    url: "https://www.foodforthepoor.org/",
-  },
-  {
-    name: "The Hunger Project Germany",
-    description:
-      "The Hunger Project Germany is a non-profit organization committed to ending hunger and poverty. They work through partnerships and sustainable programs to empower communities and promote social change.",
-    url: "https://www.thp.de/",
-  },
-  {
-    name: "Akshaya Patra Foundation",
-    description:
-      "Akshaya Patra Foundation is an NGO based in India that strives to eliminate hunger and improve access to education for children. They provide nutritious meals to schoolchildren across the country.",
-    url: "https://www.akshayapatra.org/",
-  },
-  {
-    name: "The Hunger Project Australia",
-    description:
-      "The Hunger Project Australia is a non-profit organization working to end hunger and poverty. They focus on sustainable development and empowering communities to create lasting change.",
-    url: "https://www.thp.org.au/",
-  },
-
-  {
-    name: "Feed My Starving Children",
-    description:
-      "Feed My Starving Children is a Christian non-profit organization that tackles world hunger by packing and distributing nutritious meals to children in need. They rely on volunteers to help in their mission.",
-    url: "https://www.fmsc.org/",
+      "Food Forward combats hunger and food waste by rescuing surplus produce and providing it to those in need. They collect fresh, local produce from various sources, including backyard fruit donors and farmer's markets, and distribute it to hunger relief agencies across Southern California.",
+    url: "https://foodforward.org/",
   },
 ];
 
