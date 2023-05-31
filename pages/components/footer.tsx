@@ -32,7 +32,7 @@ export default function Footer() {
     {
       question: "What organizations are working to combat food insecurity?",
       answer:
-        "Organizations working to combat food insecurity include the World Food Programme, Feeding America, and Action Against Hunger.",
+        "Organizations combating food insecurity include the World Food Programme, Feeding America, and Action Against Hunger.",
     },
   ];
 

@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import Head from "next/head"; /**for future reference https://github.com/vercel/next.js/issues/13958 */
+import Head from "next/head"; /**for future reference https://github.com/vercel/next.js/issues/13958 hopefully this doesnt happen*/
 
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";

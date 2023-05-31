@@ -38,7 +38,7 @@ export default function Causes() {
     {
       title: "Climate Change",
       description:
-        "Climate change is another significant factor contributing to food insecurity. Changing weather patterns, extreme weather events, and shifts in ecosystems can disrupt agricultural production, reduce crop yields, and impact food availability and accessibility.",
+        "Climate change is another significant factor contributing to food insecurity. Changing weather patterns, extreme weather events, and ecosystem shifts can disrupt agricultural production, reduce crop yields, and impact food availability and accessibility.",
       links: [
         {
           label: "United Nations Framework Convention on Climate Change",
@@ -53,7 +53,7 @@ export default function Causes() {
     {
       title: "Natural Disasters",
       description:
-        "Natural disasters, such as hurricanes, floods, earthquakes, and droughts, can have severe impacts on food security. These disasters can destroy crops, infrastructure, and food storage facilities, leading to food shortages and loss of livelihoods.",
+        "Natural disasters like hurricanes, floods, earthquakes, and droughts can severely impact food security. These disasters can destroy crops, infrastructure, and food storage facilities, leading to food shortages and loss of livelihoods.",
       links: [
         {
           label: "United Nations - Article on Natural Disasters",
@@ -113,12 +113,21 @@ export default function Causes() {
             >
               Impact
             </Link>
+            <span className="text-gray-300">•</span>
             <Link
               href="/solutions"
               passHref
               className="text-sky-300 hover:text-sky-100"
             >
               Solutions
+            </Link>
+            <span className="text-gray-300">•</span>
+            <Link
+              href="/donate"
+              passHref
+              className="text-sky-300 hover:text-sky-100"
+            >
+              Donate Now <span aria-hidden="true">→</span>
             </Link>
           </div>
 

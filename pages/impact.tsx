@@ -16,7 +16,7 @@ export default function Impact() {
     {
       title: "Improved Nutrition",
       content:
-        "Access to sufficient and nutritious food improves overall health and well-being, contributing to better physical and cognitive development. Adequate nutrition supports a strong immune system, reduces the risk of chronic diseases, and enhances cognitive functions such as learning and memory.",
+        "Access to sufficient and nutritious food improves overall health and well-being, contributing to better physical and cognitive development. In addition, adequate nutrition supports a robust immune system, reduces the risk of chronic diseases, and enhances cognitive functions such as learning and memory.",
       links: [
         {
           label: "World Health Organization",
@@ -31,7 +31,7 @@ export default function Impact() {
     {
       title: "Healthier Communities",
       content:
-        "Addressing food insecurity leads to healthier communities by reducing the risk of malnutrition-related diseases and improving the overall quality of life. When individuals and communities have access to nutritious food, they experience improved health outcomes, increased energy levels, and better overall well-being.",
+        "Addressing food insecurity leads to healthier communities by reducing the risk of malnutrition-related diseases and improving the overall quality of life. Individuals and communities with access to nutritious food experience improved health outcomes, increased energy levels, and better overall well-being.",
       links: [
         {
           label: "CDC - Healthy Communities",
@@ -46,7 +46,7 @@ export default function Impact() {
     {
       title: "Education and Productivity",
       content:
-        "Proper nutrition positively impacts educational outcomes and productivity, as individuals have the energy and focus to learn, work, and contribute to society. When children have access to nutritious meals, it improves their ability to concentrate in school, enhances cognitive development, and boosts academic performance. Similarly, adults who have access to healthy food are better able to focus on their work and contribute to the economy.",
+        "Proper nutrition positively impacts educational outcomes and productivity, as individuals have the energy and focus on learning, working, and contributing to society. For example, when children have access to nutritious meals, it improves their ability to concentrate in school, enhances cognitive development, and boosts academic performance. Similarly, adults with access to healthy food can better focus on their work and contribute to the economy.",
       links: [
         {
           label: "UNESCO - Education for Sustainable Development",
@@ -61,7 +61,7 @@ export default function Impact() {
     {
       title: "Economic Development",
       content:
-        "Food security plays a crucial role in economic development. When communities have access to nutritious food, it promotes economic growth and stability. Adequate nutrition helps individuals thrive, leading to increased productivity, reduced healthcare costs, and improved labor force participation. It also enables communities to invest in other areas of development, such as education and infrastructure.",
+        "Food security plays a crucial role in economic development. When communities have access to nutritious food, it promotes economic growth and stability. Adequate nutrition helps individuals thrive, increasing productivity, reducing healthcare costs, and improving labor force participation. It also enables communities to invest in other areas of development, such as education and infrastructure.",
       links: [
         {
           label: "FAO - Food Security and Economic Development",
@@ -76,7 +76,7 @@ export default function Impact() {
     {
       title: "Environmental Sustainability",
       content:
-        "Promoting food security is closely linked to environmental sustainability. Sustainable agricultural practices, such as organic farming, agroforestry, and water conservation, contribute to preserving natural resources and reducing the negative environmental impact of food production. By adopting sustainable food systems, we can protect biodiversity, conserve soil and water resources, and mitigate climate change.",
+        "Promoting food security is closely linked to environmental sustainability. Sustainable agricultural practices, such as organic farming, agroforestry, and water conservation, preserve natural resources and reduce food production's negative ecological impact. We can protect biodiversity, conserve soil and water resources, and mitigate climate change by adopting sustainable food systems.",
       links: [
         {
           label: "UN Environment - Sustainable Food Systems",
@@ -91,7 +91,7 @@ export default function Impact() {
     {
       title: "Social Equality",
       content:
-        "Addressing food insecurity is essential for achieving social equality. By ensuring that everyone has access to nutritious food, we can reduce disparities in health outcomes and create a more equitable society. Food security helps to alleviate poverty, reduce social inequalities, and promote social cohesion by providing equal opportunities for individuals and communities to thrive.",
+        "Addressing food insecurity is essential for achieving social equality. Ensuring everyone has access to nutritious food can reduce disparities in health outcomes and create a more equitable society. Food security helps to alleviate poverty, reduce social inequalities, and promote social cohesion by providing equal opportunities for individuals and communities to thrive.",
       links: [
         {
           label: "UNDP - Sustainable Development Goals",
@@ -120,12 +120,21 @@ export default function Impact() {
             >
               Causes
             </Link>
+            <span className="text-gray-300">•</span>
             <Link
               href="/solutions"
               passHref
               className="text-sky-300 hover:text-sky-100"
             >
               Solutions
+            </Link>
+            <span className="text-gray-300">•</span>
+            <Link
+              href="/donate"
+              passHref
+              className="text-sky-300 hover:text-sky-100"
+            >
+              Donate Now <span aria-hidden="true">→</span>
             </Link>
           </div>
 
