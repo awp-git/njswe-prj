@@ -14,92 +14,92 @@ export default function Impact() {
 
   const impactData = [
     {
-      title: "Improved Nutrition",
+      title: "Malnutrition and Health Issues",
       content:
-        "Access to sufficient and nutritious food improves overall health and well-being, contributing to better physical and cognitive development. In addition, adequate nutrition supports a robust immune system, reduces the risk of chronic diseases, and enhances cognitive functions such as learning and memory.",
+        "Food insecurity often leads to malnutrition, which can result in various health issues such as stunted growth, weakened immune system, and increased susceptibility to diseases. Lack of access to nutritious food can lead to deficiencies in essential vitamins and minerals, causing long-term health problems.",
       links: [
         {
           label: "World Health Organization",
           href: "https://www.who.int/nutrition/en/",
         },
         {
-          label: "UNICEF - Nutrition",
-          href: "https://www.unicef.org/nutrition",
+          label: "UNICEF - Malnutrition",
+          href: "https://www.unicef.org/malnutrition",
         },
       ],
     },
     {
-      title: "Healthier Communities",
+      title: "Increased Poverty and Inequality",
       content:
-        "Addressing food insecurity leads to healthier communities by reducing the risk of malnutrition-related diseases and improving the overall quality of life. Individuals and communities with access to nutritious food experience improved health outcomes, increased energy levels, and better overall well-being.",
+        "Food insecurity contributes to increased poverty and inequality within communities. People who lack access to sufficient and nutritious food often struggle to meet their basic needs and are more likely to experience financial hardship. This can further widen the wealth gap and hinder social mobility.",
       links: [
         {
-          label: "CDC - Healthy Communities",
-          href: "https://www.cdc.gov/features/healthycommunities/index.html",
+          label: "World Bank - Poverty",
+          href: "https://www.worldbank.org/en/topic/poverty",
         },
         {
-          label: "WHO - Food Security",
-          href: "https://www.who.int/publications/i/item/9789240010529",
+          label: "Oxfam - Inequality",
+          href: "https://www.oxfam.org/en/what-we-do/issues/inequality",
         },
       ],
     },
     {
-      title: "Education and Productivity",
+      title: "Negative Impact on Education",
       content:
-        "Proper nutrition positively impacts educational outcomes and productivity, as individuals have the energy and focus on learning, working, and contributing to society. For example, when children have access to nutritious meals, it improves their ability to concentrate in school, enhances cognitive development, and boosts academic performance. Similarly, adults with access to healthy food can better focus on their work and contribute to the economy.",
+        "Food insecurity can have a significant impact on education, especially among children. Hunger and malnutrition can hinder cognitive development, impair concentration, and reduce overall academic performance. Lack of access to nutritious meals can also lead to higher school dropout rates.",
       links: [
         {
-          label: "UNESCO - Education for Sustainable Development",
-          href: "https://en.unesco.org/themes/education-sustainable-development",
+          label: "UNESCO - Education",
+          href: "https://en.unesco.org/themes/education",
         },
         {
-          label: "World Bank - Education",
-          href: "https://www.worldbank.org/en/topic/education",
+          label: "World Food Programme - School Feeding",
+          href: "https://www.wfp.org/school-meals",
         },
       ],
     },
     {
-      title: "Economic Development",
+      title: "Social Unrest and Conflict",
       content:
-        "Food security plays a crucial role in economic development. When communities have access to nutritious food, it promotes economic growth and stability. Adequate nutrition helps individuals thrive, increasing productivity, reducing healthcare costs, and improving labor force participation. It also enables communities to invest in other areas of development, such as education and infrastructure.",
+        "Food insecurity has the potential to create social unrest and contribute to conflicts. When people struggle to meet their basic food needs, it can lead to social tensions and unrest within communities. In some cases, food scarcity can be a contributing factor to civil unrest and conflict.",
       links: [
         {
-          label: "FAO - Food Security and Economic Development",
-          href: "http://www.fao.org/economic/esa/",
+          label: "Food and Agriculture Organization - Conflict",
+          href: "http://www.fao.org/conflict/en/",
         },
         {
-          label: "World Economic Forum - Food Systems and Economic Growth",
-          href: "https://www.weforum.org/agenda/2021/10/why-we-must-invest-more-in-the-farms-of-the-future-small-farmers-agriculture-food-systems-international-fund-for-agricultural-development-idris-elba/",
+          label: "United Nations - Peace and Security",
+          href: "https://www.un.org/en/sections/issues-depth/peace-and-security/index.html",
         },
       ],
     },
     {
-      title: "Environmental Sustainability",
+      title: "Environmental Impact",
       content:
-        "Promoting food security is closely linked to environmental sustainability. Sustainable agricultural practices, such as organic farming, agroforestry, and water conservation, preserve natural resources and reduce food production's negative ecological impact. We can protect biodiversity, conserve soil and water resources, and mitigate climate change by adopting sustainable food systems.",
+        "Food insecurity can have a negative environmental impact. When people are unable to access sufficient food, it can lead to unsustainable farming practices, deforestation, and overexploitation of natural resources. Additionally, food waste and inefficient food distribution contribute to environmental degradation.",
       links: [
         {
-          label: "UN Environment - Sustainable Food Systems",
-          href: "https://www.unep.org/news-and-stories/story/rethinking-food-systems",
+          label: "United Nations Environment Programme",
+          href: "https://www.unep.org/",
         },
         {
-          label: "CGIAR - Sustainable Agriculture",
-          href: "https://a4nh.cgiar.org/our-research/research-flagships/",
+          label: "World Wildlife Fund - Food Waste",
+          href: "https://www.worldwildlife.org/threats/food-waste",
         },
       ],
     },
     {
-      title: "Social Equality",
+      title: "Mental Health Issues",
       content:
-        "Addressing food insecurity is essential for achieving social equality. Ensuring everyone has access to nutritious food can reduce disparities in health outcomes and create a more equitable society. Food security helps to alleviate poverty, reduce social inequalities, and promote social cohesion by providing equal opportunities for individuals and communities to thrive.",
+        "Food insecurity can have detrimental effects on mental health. The stress and anxiety associated with not having enough food or being uncertain about future access to food can contribute to poor mental well-being. Individuals experiencing food insecurity are more prone to depression and other mental health disorders.",
       links: [
         {
-          label: "UNDP - Sustainable Development Goals",
-          href: "https://www.undp.org/sustainable-development-goals",
+          label: "World Health Organization - Mental Health",
+          href: "https://www.who.int/mental_health/en/",
         },
         {
-          label: "Oxfam - Food Inequality",
-          href: "https://www.oxfam.org/en/what-we-do/issues/food-climate-and-natural-resources",
+          label: "Mental Health America",
+          href: "https://www.mhanational.org/",
         },
       ],
     },
